@@ -6,13 +6,14 @@ import { theme } from "./theme";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout";
+import Dashboard from "./pages/dashboard";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <Layout>
-        <App />
+        <Dashboard />
       </Layout>
     ),
   },
