@@ -7,3 +7,9 @@
   margin: 0;
   padding: 0;
 }
+
+.css-5mac9p-MuiTableCell-root,
+.css-1sqgxr7-MuiTableCell-root,
+.css-17lcgur-MuiTableCell-root {
+  border-bottom: 1px solid #eaeaea45 !important;
+}

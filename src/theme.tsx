@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material";
 
-export const theme = createTheme({
+export const theme: any = createTheme({
   palette: {
     primary: {
       main: "#fff",
@@ -17,6 +17,9 @@ export const theme = createTheme({
     },
     colorFont: {
       main: "#87888C",
+    },
+    colorNotif: {
+      main: "#FC003C",
     },
   },
 });
