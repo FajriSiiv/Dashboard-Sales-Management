@@ -42,6 +42,10 @@ export default function StackedColumnChart(props?: any) {
           columnWidth: 40,
         },
       },
+      tooltip: {
+        fillSeriesColor: true,
+        theme: "dark",
+      },
       // colors: [props.colors || "#dce6ec"],
       colors: ["#A9DFD8", "#2B2B36"],
 
@@ -59,6 +63,7 @@ export default function StackedColumnChart(props?: any) {
         },
       },
     },
+
     series: [
       {
         name: "Volume",
@@ -75,7 +80,7 @@ export default function StackedColumnChart(props?: any) {
       options={chartData.options}
       series={chartData.series}
       type="bar"
-      height={180}
+      height={props.heightM ? props.heightM : 180}
     />
   );
 }

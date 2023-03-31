@@ -38,7 +38,7 @@ function Layout({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <Stack direction="row" height="100vh">
+    <Stack direction="row" minHeight="100vh">
       <BoxContainer>
         <Sidebar />
       </BoxContainer>
